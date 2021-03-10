@@ -1,15 +1,14 @@
 # MotionDetector-openCV-bokeh
 
-A script that detects when objects enter and exit the frame of a video capture device and writes these timestamps to a .csv file.
-Another script that builds a web-integrated plot to visualize the time data.
+Detect objects that enter and exit a video capture device's field of view and record the timestamps to .csv file. Analyze said objects by time, size, and velocity and visualize this in a web-integrated plot.
 
 ### Packages used:
 > *cv2*, *pandas*, *bokeh*
 
 ### Credit:
-The code in the initial commit is written by Ardit Sulce. The code in the following commits is my own.
+The code in the initial commit is written by Ardit Sulce. After that, committed code is written by me.
 
-### To run the app: 
+### To run the app:
 To run with times saved to .csv but no plot:
 * Connect video capture device, such as webcam
 * Open CLI in this directory
