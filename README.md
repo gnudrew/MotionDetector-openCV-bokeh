@@ -19,7 +19,7 @@ To run with times saved to .csv but no plot:
 
 To run with times saved to .csv with a web-integrated plot:
 * Same as above, except..
-* From CLI, enter `py plot-motion_detector.py`
+* From CLI, enter `py analyze_motion_detector.py`
 * Press 'q' to quit capturing
 * Timestamps saved to `times.csv`
 * Plot saved to `plot_times.html` and opens in browser
