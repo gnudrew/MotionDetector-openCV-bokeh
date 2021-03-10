@@ -6,8 +6,11 @@ Another script that builds a web-integrated plot to visualize the time data.
 ### Packages used:
 > *cv2*, *pandas*, *bokeh*
 
+### Credit:
+The code in the initial commit is written by Ardit Sulce. The code in the following commits is my own, unless noted otherwise.
+
 ### To run the app: 
-To run with times saved to .csv but no plot: 
+To run with times saved to .csv but no plot:
 * Connect video capture device, such as webcam
 * Open CLI in this directory
 * Enter `py motion_detector.py`
